@@ -383,6 +383,7 @@ class Factory {
 	 */
 	public function getEditFields($loadRelationships = true, $override = false)
 	{
+		#fix size of issue
 		if (!$this->editFields || !sizeof($this->editFields) || $override)
 		{
 			$this->editFields = array();
